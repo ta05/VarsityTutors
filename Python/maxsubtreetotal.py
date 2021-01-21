@@ -1,6 +1,7 @@
 '''
     Given a binary tree, return the maximum sum of the subtrees
 '''
+
 def maxsubtreetotal(t):
     if isinstance(t, int) or isinstance(t, float):
         return t
@@ -17,5 +18,3 @@ def total(t):
 print(maxsubtreetotal((-3, 4)))
 print(maxsubtreetotal(((-3, 5), (2, 1))))
 print(maxsubtreetotal((((-3, 4), 5), (2, 1))))
-
-print(total((((-3, 4), 5), (2, 1))))

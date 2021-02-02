@@ -1,4 +1,4 @@
-# Stretch
+# Gerald's Session
 
 ## TAIL RECURSION
 

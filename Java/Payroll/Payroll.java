@@ -1,3 +1,5 @@
+package Java.Payroll;
+
 public class Payroll {
 
     private int[] myEmployeeID = {6668466, 4520125, 7895122, 8777541, 8451277, 1302850, 4447892};

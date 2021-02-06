@@ -14,7 +14,3 @@ def total(t):
         return t
     else:
         return total(t[0]) + total(t[1])
-
-print(maxsubtreetotal((-3, 4)))
-print(maxsubtreetotal(((-3, 5), (2, 1))))
-print(maxsubtreetotal((((-3, 4), 5), (2, 1))))

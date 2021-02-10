@@ -18,7 +18,14 @@ public class ReadFileTester {
         for(int i = 0; i<numArrayList.size(); i++)
             numArray[i] = Integer.parseInt(numArrayList.get(i));
 
-        for(int num : numArray)
+        Statistics s2 = new Statistics();
+
+        System.out.print("Our list is: ");
+        for (int num : numArray)
             System.out.print(num + " ");
+        System.out.println();
+
+        System.out.println("The mean of the list is: " + s2.getMean(numArray));
+        System.out.println("The mode of the list is: " + s2.getMode(numArray));
 	}
 }

@@ -1,27 +1,27 @@
 # Building your own functions
 import math
 
-# Returns sum of the items in a list
+# Returns Sum
 def sum(li):
     sum = 0
     for i in li:
         sum += i
     return sum
 
-# Returns mean of a list
+# Returns Mean
 def mean(li):
     if len(li) > 0:
         return sum(li) / len(li)
     return 0
 
-# Returns median of a list
+# Returns Median
 def median(li):
     sorted_li = sorted(li)
     if len(sorted_li) % 2 == 0:
         return (sorted_li[int(len(sorted_li)/2 - 1)] + sorted_li[int(len(sorted_li)/2)]) / 2
     return sorted_li[int(len(sorted_li) / 2)]
 
-# Returns the standard deviation of a list
+# Returns Standard Deviation
 def stddev(li):
     if len(li) > 0:
         avg = mean(li)

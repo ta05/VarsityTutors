@@ -19,7 +19,7 @@ public class ReadFile
 		BufferedReader in = new BufferedReader(fstream);
 		
 		String value = ""; 
-		while( value != null) {
+		while(value != null) {
 			value = in.readLine();
 			if(value != null) {
 				list.add(value);

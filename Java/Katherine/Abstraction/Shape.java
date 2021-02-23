@@ -1,5 +1,3 @@
-package Abstraction;
-
 public abstract class Shape {
     public String name;
 

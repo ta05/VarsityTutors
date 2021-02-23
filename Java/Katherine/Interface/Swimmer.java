@@ -1,5 +1,3 @@
-package Interface;
-
 public class Swimmer implements Athlete{
     private String name;
     private String teamName;

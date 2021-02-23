@@ -1,5 +1,3 @@
-package Abstraction;
-
 public class Rectangle extends Shape {
     private double length;
     private double width;
@@ -14,7 +12,7 @@ public class Rectangle extends Shape {
         return this.length * this.width;
     }
 
-    public double getPerimiter() {
+    public double getPerimeter() {
         return 2 * (this.length + this.width);
     }
 }

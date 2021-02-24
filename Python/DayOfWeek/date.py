@@ -13,7 +13,7 @@ months = {
     "Dec": 12
 }
 monthDays = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-weekdays = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"]
+weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
 # Returns the number of leap years from year 0 to year yr
 def countLeapYears(mon, yr):

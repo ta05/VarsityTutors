@@ -38,11 +38,17 @@ Next, the program will display a list of options
 Command Options
 -----------------------------------
 Option a: checks if the length of the two strings are the same.
+
 Option b: checks if two strings are the same or different.
+
 Option c: checks which string is lexically larger, or if they are the same.
+
 Option d: prints out the first character (index 0) of each string.
+
 Option e: prints out a new string consisting of the first string concatenated (appended) with the second string.
+
 Option f: prints out two strings using upper case letters.
+
 Option q: quit the program.
 
 

@@ -1,3 +1,3 @@
 # Varsity Tutors
 
-This repository holds the code for assignments and projects I help students with.
+A collection of some of the assignments and projects that I've helped students with.

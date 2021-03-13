@@ -11,7 +11,7 @@ public class PolynomialTester {
         
         double lowerLimit = 1;
         double upperLimit = 3;
-        System.out.println("The integral of " + p + " is " + Calculus.integrate(p));
-        System.out.println("When the x lower limit is " + lowerLimit + " and the x upper limit is " + upperLimit + ", the integral is " + Calculus.integrate(p, lowerLimit, upperLimit));
+        System.out.println("The indefinite integral of " + p + " is " + Calculus.integrate(p));
+        System.out.println("When the x lower limit is " + lowerLimit + " and the x upper limit is " + upperLimit + ", the definite integral is " + Calculus.integrate(p, lowerLimit, upperLimit));
     }
 }

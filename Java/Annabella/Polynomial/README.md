@@ -29,24 +29,24 @@ Complete the following methods:
 
 ### `Polynomial differentiate(Polynomial p)`
 
-Precondition: p is not null
-Postcondition: returns the derivative of p as a Polynomial
+- Precondition: p is not null
+- Postcondition: returns the derivative of p as a Polynomial
 
 ### `Polynomial differentiate(Polynomial p, double value)`
 
-Precondition: p is not null
-Postcondition: returns the value of the derivative of p at x = value. 
+- Precondition: p is not null
+- Postcondition: returns the value of the derivative of p at x = value. 
 
 First find the derivative and then substitute the value for x into the derivative and calculate a solution.
 
 ### `Polynomial integrate(Polynomial p)`
 
-Precondition: p is not null
-Postcondition: returns a Polynomial as the antiderivative of p
+- Precondition: p is not null
+- Postcondition: returns a Polynomial as the antiderivative of p
 
 This is the indefinite integral of p and should include the constant of integration in the solution but we will ignore it and put zero instead.
 
 ### `Polynomial integrate(Polynomial p, double lowerLimit, double upperLimit)`
 
-Precondition: p is not null, lowerLimit < upperLimit
-Postcondition: returns the solution to the definite integral
+- Precondition: p is not null, lowerLimit < upperLimit
+- Postcondition: returns the solution to the definite integral

@@ -57,6 +57,6 @@ def computeGCD(f):
         return
 
 
-for f in glob.glob("./Dawit/data/*.dat"):
+for f in glob.glob("./Dawit/GCD/data/*.dat"):
     print(computeGCD(f))
 

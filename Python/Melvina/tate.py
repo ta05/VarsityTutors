@@ -50,9 +50,6 @@ unknown_df = df[['acquisitionYear', 'countUnknown', 'countFemaleUnknown']].group
 unknown_df['ratio'] = unknown_df['countFemaleUnknown'] / unknown_df['countUnknown']
 
 
-# df.plot(kind='scatter', x='gender', y='acquisitionYear', color='red')
-# twoD_df.plot(kind='scatter', x='acquisitionYear', y='ratio', color='red')
-
 
 x1 = twoD_df['acquisitionYear']
 x2 = threeD_df['acquisitionYear']
@@ -74,5 +71,3 @@ plt.ylabel("Female Artwork to All Artwork")
 plt.title('Ratio of Female Artwork to All Artwork by Dimension', fontdict={'fontsize': 14})
 plt.legend()
 plt.show()
-
-

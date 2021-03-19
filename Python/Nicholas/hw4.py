@@ -43,10 +43,10 @@ def plot_regression(filename):
     df['September Anomalies'] = df['September'] - (m2 * df['Year'] + b2)
     
     # Plots the two scatterplots and regression lines
-    plt.plot(x, y1, 'yo', label="March")
-    plt.plot(x, m1 * x + b1, '--k', label="March Best-Fit")
-    plt.plot(x, y2, 'go', label="September")
-    plt.plot(x, m2 * x + b2, '--b', label="September Best-Fit")
+    plt.plot(x, y1, 'ko', label="March")
+    plt.plot(x, m1 * x + b1, '--k')
+    plt.plot(x, y2, 'bo', label="September")
+    plt.plot(x, m2 * x + b2, '--b')
     
     # Displays the Plot and creates a Legend
     plt.legend()

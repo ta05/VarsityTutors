@@ -23,4 +23,4 @@ For example, you invest $10,000. Eac month, the investment accrues interest at a
 
 ## Output
 
-`After 17 monthhs your balance is 73.91.`
+`After 17 monthhs your balance is 70.24.`

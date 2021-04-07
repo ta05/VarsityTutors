@@ -1,6 +1,6 @@
 num_pass = 0
-veg_meals = 1
-seats = 3
+veg_meals = 5
+seats = 10
 flight = []
 
 option = "Y"

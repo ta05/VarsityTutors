@@ -1,0 +1,3 @@
+# Flight
+
+Write a program that assigns seats on an airplane. The airplane has 10 seats. The program should ask if the passenger requires a standard meal or a vegetarian meal. There are only 5 vegetarian meals available. The seats should be numbered 1-10 and no double seat should be assigned. If a passenger requires a vegetarian meal, but it is not available, the system should give a choice of standard meal or print out "Next flight with a vegetarian option leaves in 4 hours". The final printout should be the First Name, Last Name (of all the passengers), seat number and a V for Vegetarian or S for Standard meal. If all the seats are taken, the program should tell the user so and that "Next flight leaves in 4 hours".

@@ -17,7 +17,8 @@ public class Playlist {
                 current = current.next;
             } while (current != head);
         }
-        current += "[END]";
+        display += "[END]";
+        System.out.println(display);
     }
 
     public void displayPlaylistBackward() {
@@ -29,7 +30,8 @@ public class Playlist {
                 current = current.prev;
             } while (current != head.prev);
         }
-        current += "[END]";
+        display += "[END]";
+        System.out.println(display);
     }
 
     public void addFirst(String title, double duration) {
@@ -60,6 +62,25 @@ public class Playlist {
             head.prev = newEpisode;
         }
     }
+
+    public void add(String title, double duration, int index) {
+        if (index < 0 || index > size) {
+            System.out.println("Index Out Of Bounds");
+            return;
+        }
+        if (index == 0)
+            addFirst(title, duration);
+        else {
+            Episode current = head;
+            for (int i = 0; i < index; i++)
+                current = current.next;
+            Episode newEpisode = new Episode(title, duration, current, current.prev);
+            newEpisode.prev.next = newEpisode;
+            newEpisode.next.prev = newEpisode;
+            size++;
+        }
+    }
+    
     public Episode deleteFirst() {
         if (size == 0)
             return head;

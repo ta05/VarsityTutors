@@ -31,7 +31,35 @@ public class Playlist {
         }
         current += "[END]";
     }
-    
+
+    public void addFirst(String title, double duration) {
+        if (head == null) {
+            head = new Episode(title, duration, null, null);
+            size++;
+            head.prev = head;
+            head.next = head;
+        } else {
+            Episode newEpisode = new Episode(title, duration, head, head.prev);
+            size++;
+            head.prev.next = newEpisode;
+            head.prev = newEpisode;
+            head = newEpisode;
+        }
+    }
+
+    public void addLast(String title, double duration) {
+        if (head == null) {
+            head = new Episode(title, duration, null, null);
+            size++;
+            head.prev = head;
+            head.next = head;
+        } else {
+            Episode newEpisode = new Episode(title, duration, head, head.prev);
+            size++;
+            head.prev.next = newEpisode;
+            head.prev = newEpisode;
+        }
+    }
     public Episode deleteFirst() {
         if (size == 0)
             return head;

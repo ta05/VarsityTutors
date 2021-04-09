@@ -23,7 +23,7 @@ Use the UML diagram and method descriptions below to create your **Stat** class.
 
 ![UML Diagram](./images/UML.png)
 
-Observe that **data** should be private; you should define your clss so that **data** (and its values) can only be altered through **getData** and **setData**.
+Observe that **data** should be private; you should define your class so that **data** (and its values) can only be altered through **getData** and **setData**.
 
 ### Method Descriptions:
 
@@ -43,7 +43,7 @@ Observe that **data** should be private; you should define your clss so that **d
 
 - `max()`: Returns the maximum of the **data** array.
 
-- `average()`: Returns the average of the **data** array. The average is defined to be adouble value that returns the mean value of a given array of numbers.
+- `average()`: Returns the average of the **data** array. The average is defined to be a double value that returns the mean value of a given array of numbers.
 
 - `mode()`: The mode is the value that occurs most frequently in a collection of values. In the Stat class, if one value occurs more frequently in a **data** than all others, then `mode()` should return this calue. Otherwise, `mode()` should return **Double.NaN** indicating that no unique value exists.
 

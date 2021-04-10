@@ -45,5 +45,5 @@ Observe that **data** should be private; you should define your class so that **
 
 - `average()`: Returns the average of the **data** array. The average is defined to be a double value that returns the mean value of a given array of numbers.
 
-- `mode()`: The mode is the value that occurs most frequently in a collection of values. In the Stat class, if one value occurs more frequently in a **data** than all others, then `mode()` should return this calue. Otherwise, `mode()` should return **Double.NaN** indicating that no unique value exists.
+- `mode()`: The mode is the value that occurs most frequently in a collection of values. In the Stat class, if one value occurs more frequently in a **data** than all others, then `mode()` should return this value. Otherwise, `mode()` should return **Double.NaN** indicating that no unique value exists.
 

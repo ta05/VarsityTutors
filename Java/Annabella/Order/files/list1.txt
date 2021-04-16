@@ -1,0 +1,6 @@
+Sandwich: (beef,10)
+Drink: (coke,2)
+Cookie: (oatmeal,1.75)
+Meal: ((ham,8),(sprite,2),(peanut,2.25))
+Meal: ((cheese,9.5),(oj,3))
+Meal: ((blt,10.60),(water,0),(butterscotch,1.85))

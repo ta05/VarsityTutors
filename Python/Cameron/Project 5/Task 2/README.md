@@ -2,9 +2,12 @@
 
 ## Task
 
-Write a program which creates a lits of randomly chosen donations to 15 different charities.  
-First the program should create a list of 100 donations, choosing both a random charity (1-15) and a random donation($1.00-$100.00). You should print the charity and donation, and also record both the charity and the donation in two lists: one integer and one float.  
-When you are done creating the individual donations, go back thhrough the data and create a third list, and total the donations for each charity. This list is subscripted by the charity number (1-15) and contains floating point totals. Ath the same time, create a fourth list that contains the count of the number of donations for each charity.  
+Write a program which creates a lits of randomly chosen donations to 15 different charities.
+
+First the program should create a list of 100 donations, choosing both a random charity (1-15) and a random donation($1.00-$100.00). You should print the charity and donation, and also record both the charity and the donation in two lists: one integer and one float.
+
+When you are done creating the individual donations, go back thhrough the data and create a third list, and total the donations for each charity. This list is subscripted by the charity number (1-15) and contains floating point totals. Ath the same time, create a fourth list that contains the count of the number of donations for each charity.
+
 Print out the total for each charity and the average average donation for each of the charities.
 
 ## Example Output

@@ -15,18 +15,17 @@ Finally, print out which letter was found the most times. (Note: There may be mo
 
 ## Example Output
 
-Enter text: hello
-
-Enter text: hi
-Enter text: hi!
-Count of h is 3
-Count of e is 1
-Count of l is 2
-Count of o is 1
-Count of i is 2
-Count of Other is 1
-Vowel count is 4
-Consonant count is 6
-Max values:
-h
+Enter text: hello  
+Enter text: hi  
+Enter text: hi!  
+Count of h is 3  
+Count of e is 1  
+Count of l is 2  
+Count of o is 1  
+Count of i is 2  
+Count of Other is 1  
+Vowel count is 4  
+Consonant count is 6  
+Max values:  
+h  
 

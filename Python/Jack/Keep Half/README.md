@@ -4,13 +4,13 @@ Write a program which takes in a string as a parameter and returns a string of e
 
 # Examples
 
-- Input: "Crib's Boolean"
-- Output: Ci' ola
+Input: "Crib's Boolean"  
+Output: Ci' ola  
 
 
-- Input: "Hannah Montana"
-- Output: Hna otn
+Input: "Hannah Montana"  
+Output: Hna otn  
 
 
-- Input: "Every second letter"
-- Output: Eeyscn etr
+Input: "Every second letter"  
+Output: Eeyscn etr  

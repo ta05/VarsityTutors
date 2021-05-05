@@ -1,0 +1,6 @@
+# Instructor
+
+Design a class named `Employee` with fields for holding an employee's name, department, address and telephone number (all as Strings). Write a constructor that initializes all of these values, and a *mutator* and *accessor* methods for every field. Next, design a class named `Instructor`, which inherits from the `Employee` class. The `Instructor` class should have an *integer* field for the instructor id and a *boolean* field indicating whether the instructor wishes to be on a mailing list. Write a constructor that initializes these values and the appropriate *mutator* and *accessor* methods for the class's fields. The default value for String fields are empty strings (""), for *integer* fields is 0, and for *boolean* fields is false.
+
+
+Demonstrate the `Instructor` class in a program that prompts the user to enter values for the instructor's name, department, address, phone number and instructor id number, and then asks the user whether or not the instructor wants to receicve mail. Use this information to create an Instructor object and then print its information.

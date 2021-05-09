@@ -1,3 +1,3 @@
 # Animal
 
-Draw an animal using DrawingPanel.
+Using DrawingPanel, write a Python application to draw the anumal you've chosen.

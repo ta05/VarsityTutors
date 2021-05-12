@@ -10,4 +10,4 @@ Implement the Student class which includes the following method development:
     - C: [65 - 80)
     - D: [60 - 65)
     - F: [0 - 60)  
-4. Implement the **compareTo** that uses an Object type variable as the parameter, but can accept a Student object as an argument. It returns an integer(-1, 1 or 0) to indicate whether the average of this object is less than, greater than or equal to that of the parameter.
+4. Implement the **compareTo** method that uses an Object type variable as the parameter, but can accept a Student object as an argument. It returns an integer(-1, 1 or 0) to indicate whether the average of this object is less than, greater than or equal to that of the parameter.

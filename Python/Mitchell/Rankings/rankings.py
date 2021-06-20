@@ -6,3 +6,4 @@ def rankings(filename, university):
     rows = np.where(filedata == university)[0]
 
     return filedata[rows][:,0]
+

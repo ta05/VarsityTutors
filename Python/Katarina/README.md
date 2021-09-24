@@ -1,0 +1,3 @@
+# Theater
+
+Prompt the user for the number of rows and number of seats per row in a theater. Print out each seat separated by spaces. The rows are numbered starting at 1 and each row in a seat is lettered beginning with "A". The first seat would be 1A then 1B, 1C ...

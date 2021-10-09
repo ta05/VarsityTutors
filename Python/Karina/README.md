@@ -1,5 +1,8 @@
 # Lab 4
 
+## Problem 1 - Swap
+
+Write a function which accepts two integers as parameters and returns them in swapped order.
 ## Problem 3 - Toll
 
 Toll roads have different fees based on the time of day and day of the week. Write a function `calc_toll()` that has three parameters: the current hour of time (int), whether the time is morning (boolean), and whether the day is a weekend (boolean). The function returns the correct toll fee (float) based on the chart below.  

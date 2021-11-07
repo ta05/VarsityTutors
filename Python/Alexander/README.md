@@ -1,4 +1,4 @@
-# Count String
+# Functions
 
 
 ## Description  

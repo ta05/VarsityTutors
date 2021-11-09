@@ -36,7 +36,7 @@ When the code segment completes, the following will be the contents of `smaller`
 
 `{{1, 3, 2}, {0, 0, 0}, {4, 5, 6}}`  
 
-A helper method, `numNonZeroRows`, has been provided for ou. The method returns the number of rows in its two-dimensional array parameter that contain no zero values.  
+A helper method, `numNonZeroRows`, has been provided for you. The method returns the number of rows in its two-dimensional array parameter that contain no zero values.  
 
 Complete the `resize` method. Assume that `isNonZeroRow` works as specified.
 

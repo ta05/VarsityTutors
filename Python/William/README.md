@@ -1,4 +1,4 @@
-# Problem 1
+# Assignment 10 Problem 1
 
 Complete the functions below, where example arguments are also shown below. **Note that the solutions for the functions should only require one line of cose, and must use only list comprehension or map/lambda expressions as the problem specifies.**  
 

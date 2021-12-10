@@ -58,3 +58,13 @@ You ***MUST*** call method `getLetters` when writing method `getLetterTriangle`.
  UUU
 UUUU
 ```
+
+`getLetterTriangle(5, "W")` returns:  
+
+```
+    W
+   WW
+  WWW
+ WWWW
+WWWWW
+```

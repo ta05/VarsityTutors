@@ -50,4 +50,11 @@ Write method `getLetters(int howMany, String letter)`. `getLetters` will return 
 Write method `getLetterTriangle(int numRows, String triLetter)`. `getLetterTriangle` will return a triangle of letters as shown below. The triangle will contain `numRows` rows of `triLetter` characters and spaces as shown below.  
 You ***MUST*** call method `getLetters` when writing method `getLetterTriangle`.
 
-- `getLetterTriangle(4, "U")` returns ```   U\n  UU\n UUU\nUUUU```
+`getLetterTriangle(4, "U")` returns:  
+
+```
+   U
+  UU
+ UUU
+UUUU
+```

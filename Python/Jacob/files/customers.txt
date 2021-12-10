@@ -1,0 +1,5 @@
+Glory, 4, 8.95
+Adam, 2, 14
+Bertram, 10, 1.44
+Bonnie, 5, 5
+Yvonne, 7, 6.11

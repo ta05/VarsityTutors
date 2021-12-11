@@ -1,0 +1,3 @@
+# Savings Account
+
+Create class SavingsAccount. Use a static variable interestRate to store the annual interest rate for all account holders. Each object of the class contains private instance variables `accountNumber` indicating the unique account identifier number, `balance` indicating the amount the saver currently has on deposit, `firstName` indicating the account holder's first name, and `lastName` indicating the account holder's last name. Provide method `addInterest` to calculate the interest and adding it to the account balance. Provide methods to `withdraw` amounts from and `deposit` amounts to the account.

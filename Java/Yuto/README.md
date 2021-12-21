@@ -14,4 +14,6 @@ Your program should be able to handle the following operators:
 
 You may find a new String method, `contains()` to be helpful.  
 
-**`contains()`**`returns: true if the char/String is found in the original String.`
+<pre>
+<b>contains()</b> returns: true if the char/String is found in the original String.
+</pre>

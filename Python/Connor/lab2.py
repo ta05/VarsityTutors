@@ -42,4 +42,4 @@ if __name__ == "__main__":
     print("{:,} / {:,} = {:,.2f}".format(n1, n2, res[3]))
     print("{:,} // {:,} = {:,}".format(n1, n2, res[4]))
     print("{:,} % {:,} = {:,}".format(n1, n2, res[5]))
-    print("{:,} ** {:,} = {:,}".format(n1, n2, res[67]))
+    print("{:,} ** {:,} = {:,}".format(n1, n2, res[6]))

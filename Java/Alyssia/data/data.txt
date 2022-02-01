@@ -1,0 +1,7 @@
+"OpenGL", M. Turner, 2020, 498, 3, 14000, 14995, 5.65, 12412, 581, 233, Computer Science, Computer Graphics
+"Spiderman's Revenge", D.J.Smith, 2021, 314, 3, 75000, 159484, 7.99, 58973, 4599, 221, Science Fiction
+"A Glow in the Dark", L.Everson, 2019, 789, 2, 50000, 143239, 6.95, 32078, 343, 455, Mystery
+"The Intel i7-11000 Architecture", M. Mano, 2021, 505, 1, 9500, 24742, 135.95, 7823, 110, 123, Computer Science, Computer Architecture
+"Hide and Seek", N. McMasters, 2018, 994, 3, 43000, 52943, 10.95, 41953, 5092, 43, Action-Adventure
+"Using VMD", S. Styles, 2014, 514, 2, 4000, 94425, 115.95, 3912, 43, 7, BioChemistry, Computational BioChemistry
+"Introduction to Organic Chemistry", S. Warnes, 2022, 1024, 1, 21000, 41990, 119.95, 12043, 104, 134, Chemistry, Organic Chemistry

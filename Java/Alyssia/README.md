@@ -31,6 +31,6 @@ Both class Textbook and Novel should implement the methods of the PublicationInf
 5. Create a driver class Bookshelf. The class should contain a method, which: 
 - Opens a file called "data.txt". Each line in that file will contain data about one book. For example:
     - "OpenGL", M. Turner, 2020, 498, 3, 14000, 14995, 5.65, 12412, 581, 233, Computer Science, Computer Graphics
-The entries are comma-separated and listed in the order in section 1 above.
+    - The entries are comma-separated and listed in the order in section 1 above.
 - Parse each line in the file, determine the type of book the line represents and then create a new instance of the Textbook or Noverl class and initialize it with data from the current line. Add the new instance to an ArrayList of type Book.
 - After all the data from the file has been read, print the contents of the ArrayList one book at a time.

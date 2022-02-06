@@ -1,5 +1,3 @@
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction;
-
 class Substring {
     public static String substringHelper(String str, char open, char close) {
         if (str.length() < 2)

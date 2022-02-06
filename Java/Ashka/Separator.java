@@ -1,5 +1,3 @@
-package Java.Ashka;
-
 import java.lang.Math;
 
     

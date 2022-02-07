@@ -74,10 +74,10 @@ Odd count = 7
 Even count = 3
 Perfect count = 2
 ~~~
+
+~~~
 [1, 2, 3, 4, 5, 6, 7, 8, 11, 13, 151, 16, 17, 18, 19, 20]
 Odd count = 9
 Even count = 7
 Perfect count = 1
-~~~
-
 ~~~

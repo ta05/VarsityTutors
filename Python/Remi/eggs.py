@@ -7,5 +7,7 @@ if eggs < 0:
     print("Your value cannot be negative")
 
 else:
-    print("We will pack your {:} egg(s) in {:} carton(s).".format(eggs, eggs//EGGS_PER_CARTON))
-    print("There will be {:} egg(s) left over.".format(eggs%EGGS_PER_CARTON))
+    eggs_in_cartons = eggs // EGGS_PER_CARTON
+    eggs_left_over = eggs % EGGS_PER_CARTON
+    print("We will pack your {:} egg(s) in {:} carton(s).".format(eggs, eggs_in_cartons))
+    print("There will be {:} egg(s) left over.".format(eggs_left_over))

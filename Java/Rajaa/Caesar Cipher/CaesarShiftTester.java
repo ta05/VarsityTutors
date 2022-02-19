@@ -19,7 +19,7 @@ public class CaesarShiftTester {
 
         while (!s.equals("Q")) {
             if (s.equals("E")) {
-                System.out.print("\nPlease enter a message to encode: ");
+                System.out.print("\nPlease enter a plaintext message to encode: ");
                 String text = sc.nextLine();
                 System.out.print("Please enter a shift key value between 0-25: ");
                 int shift = sc.nextInt();
@@ -30,7 +30,7 @@ public class CaesarShiftTester {
                 System.out.println("\nYour encoded message is: " + c.encrypt(text.toLowerCase()));
             }
             else if (s.equals("D")) {
-                System.out.print("\nPlease enter a message to decode: ");
+                System.out.print("\nPlease enter a ciphertext message to decode: ");
                 String text = sc.nextLine();
                 System.out.print("Please enter a shift key value between 0-25: ");
                 int shift = sc.nextInt();

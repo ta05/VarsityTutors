@@ -1,0 +1,1 @@
+Write a program that prompts the user to enter 20 numbers. Save those numbers into a list. Print out the lowest and highest values in the list.

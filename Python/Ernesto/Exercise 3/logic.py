@@ -28,7 +28,6 @@ def bridge_crossing(team):
                 print(f"{crosser_1[0]} & {crosser_2[0]} cross ({crossing_time} mins) Total = {time} mins")
                 right += left[-2:]
                 left = left[:-2]
-            right.sort(key=lambda x : x[1])
             
         else:
             crosser = right[0]
@@ -38,10 +37,11 @@ def bridge_crossing(team):
 
             print(f"{crosser[0]} crosses ({crossing_time} mins) Total = {time} mins")
 
-            left = right[0:1] + left
+            if crosses % 4 == 1:
+                left = right[0:1] + left
+            else:
+                left = left[0:1] + right[0:1] + left[1:]
             right = right[1:]
-
-            left.sort(key=lambda x : x[1])
         crosses += 1
 
 

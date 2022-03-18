@@ -1,4 +1,6 @@
 # Lesson 4 - Word Searcher
+
+Write a program to allow the user to enter text, a word to search for and then to search for words within it. Your program must:
 ### Task
 
 1. Greet the user and ask them if they want to enter text, a word to search for, or to exti the program.  

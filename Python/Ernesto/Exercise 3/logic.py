@@ -46,5 +46,6 @@ def bridge_crossing(team):
 
 
 team_1 = (("Alice", 1), ("Brian", 2), ("Carla", 9), ("David", 10))
-team_2 = team = (("Alice", 1), ("Brian", 2), ("Carla", 9), ("David", 10), ("Eve", 8))
-bridge_crossing(team_1)
+team_2 = (("Alice", 1), ("Brian", 2), ("Carla", 9), ("David", 10), ("Eve", 8))
+team_3 = (("Alice", 1), ("Brian", 2), ("Carla", 9), ("David", 1), ("Eve", 3), ("Frank", 7))
+bridge_crossing(team_3)

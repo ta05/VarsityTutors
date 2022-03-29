@@ -1,6 +1,6 @@
 # Traffic Collision
 
-For Assignment 4, it is your job to help the traffic collision experts at the Department of Motor Vehicles. You must read in a .csv file of values, calculate teh velocities of vehicles before collisions, and store the results in two separate .txt files.
+For Assignment 4, it is your job to help the traffic collision experts at the Department of Motor Vehicles. You must read in a .csv file of values, calculate the velocities of vehicles before collisions, and store the results in two separate .txt files.
 
 ## Part 1
 

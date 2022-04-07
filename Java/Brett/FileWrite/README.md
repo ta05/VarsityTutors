@@ -17,10 +17,10 @@ Create a method `public static double averageMark(int hw1, int hw2, int hw3)`. T
 Create a method `public static String grade(int hw1, int hw2, int hw3)`. The purpose of this method is to determine the letter grade of a student (Example: A, B, C, etc.)
 - Call `averageMark()`. Store this method call inside a `double` type variable.
 - Implement a decision structure (`if`, `else if`, `else` block).
-  - If the average mark is greater than equal to return "A".
-  - If it's greater than equal to 80 and less than 90, return "B".
-  - If it's greater than equal to 70 and less than 80, return "C".
-  - If it's greater than equal to 60 and less than 70, return "D".
+  - If the average mark is greater than or equal to return "A".
+  - If it's greater than or equal to 80 and less than 90, return "B".
+  - If it's greater than or equal to 70 and less than 80, return "C".
+  - If it's greater than or equal to 60 and less than 70, return "D".
   - Otherwise, return "Fail".
 
 Create a method `public static void writeFile(String filename, String fullname, double average, String grade) throws FileNotFoundException`. The purpose of this method is to write all of your results inside a file.

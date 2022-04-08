@@ -1,10 +1,12 @@
 def read(filename):
-    file = open("./Ilani/files/" + filename, "r")
+    file = open("./files/" + filename, "r")
     return file.read()
 
+
 def write(filename, message):
-    file = open("./Ilani/files/" + filename, "w")
+    file = open("./files/" + filename, "w")
     file.write(message)
+
 
 def encode(plaintext, shift):
     ciphertext = ""
@@ -16,10 +18,12 @@ def encode(plaintext, shift):
             ciphertext += character
     return ciphertext
 
+
 def decode(ciphertext, shift):
     return encode(ciphertext, -1 * shift)
 
-if __name__ == "__main__":
+
+def main():
     while True:
         selection = input("Would you like to encode or decode the message?\nType E to encode, D to decode, or Q to quit: ").lower()
         if selection == "q":
@@ -46,4 +50,5 @@ if __name__ == "__main__":
             print("The selection was invalid.\n")
 
 
-
+if __name__ == "__main__":
+    main()

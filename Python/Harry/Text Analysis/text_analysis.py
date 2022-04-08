@@ -6,7 +6,7 @@ def clean_up(text: str) -> str:
     return text
 
 
-if __name__ == "__main__":
+def main():
     speech_file = open("./infiles/speech.txt", "r", encoding="utf-8")
     common_file = open("./infiles/common_words.txt", "r")
     most_freq_file = open("./outfiles/output.txt", "w")
@@ -38,3 +38,6 @@ if __name__ == "__main__":
 
     most_freq_file.close()
 
+
+if __name__ == "__main__":
+    main()

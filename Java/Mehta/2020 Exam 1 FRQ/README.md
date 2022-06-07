@@ -61,8 +61,10 @@ Elements may be added to `reviewList` and `productList` in any order.
 
 Complete method `addReview`.
 
+~~~java
 /** Adds a new review to the collection of reviews. */
-`public void addReview(ProductReview prodReview)`
+public void addReview(ProductReview prodReview)
+~~~
 
 ### (b)
 
@@ -70,5 +72,7 @@ Write the `getNumGoodReviews` method, which returns the number of good reviews f
 
 Complete method `getNumGoodReviews`.
 
+~~~java
 /** Returns the number of good reviews for a given product name. */
-`public int getNumGoodReviews(String prodName)`
+public int getNumGoodReviews(String prodName)
+~~~

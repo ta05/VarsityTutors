@@ -86,7 +86,7 @@ The following example shows a declaration of a `WordMatch` object and the outcom
 
 Complete method `findBetterGuess`.
 
-Assume that `scoreGuess` works as specified, regardless of what you wrote inpart (a). You must use `scoreGuess` appropriately to receive full credit.
+Assume that `scoreGuess` works as specified, regardless of what you wrote in part (a). You must use `scoreGuess` appropriately to receive full credit.
 
 ~~~java
 /** Returns the better of two guesses, as determined by scoreGuess and the rules for a tie-breaker that are described in part(b)
@@ -192,5 +192,5 @@ Complete the `removeMembers` method.
 /** Removed members who have graduated and returns a list of members who have graduated
  * and are in good standing, as described in part (b)
  * */
-    public ArrayList<MemberInfo> removeMembers(int year)
+public ArrayList<MemberInfo> removeMembers(int year)
 ~~~

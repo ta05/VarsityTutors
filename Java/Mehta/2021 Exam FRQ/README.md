@@ -59,9 +59,13 @@ The following examples show declarations of a `WordMatch` object. The tables sho
 
 Complete the `scoreGuess` method.
 
-/** Returns a score for `guess`, as described in part(a). **Precondition**:` 0 < guess.length() <= secret.length()` */
+~~~java
+/** Returns a score for guess, as described in part(a).
+  * Precondition:  0 < guess.length() <= secret.length()
+  * */
 
 `public int scoreGuess(String guess)`
+~~~
 
 ### (b)
 
@@ -84,6 +88,109 @@ Complete method `findBetterGuess`.
 
 Assume that `scoreGuess` works as specified, regardless of what you wrote inpart (a). You must use `scoreGuess` appropriately to receive full credit.
 
-/** Returns the better of two guesses, as determined by `scoreGuess` and the rules for a tie-breaker that are described in part(b). **Precondition**: `guess1` and `guess2` contain all lowercase letters. `guess1` is not the same as `guess2`. */
+~~~java
+/** Returns the better of two guesses, as determined by scoreGuess and the rules for a tie-breaker that are described in part(b)
+ * Precondition: guess1 and guess2 contain all lowercase letters. guess1 is not the same as guess2.
+ * */
 
-`public String findBetterGuess(String guess1, String guess2)`
+public String findBetterGuess(String guess1, String guess2)
+~~~
+
+## Question 3
+
+A high school club maintains information about its members in a `MemberInfo` object. A `MemberInfo` object stores a club member's name, year of graduation, and whether or not the club member is in *good standing*. A member who is in good stading has fulfilled all the responsibilities of a membership.
+
+A partial declaration of the `MemberInfo` class is shown below
+
+~~~java
+public class MemberInfo {
+
+    /** Constructs a MemberInfo object for the club member with name name,
+     * graduation year gradYear, and standing hasGoodStanding.
+     * */
+    public MemberInfo(String name, int gradYear, boolean hasGoodStanding) {
+        /* implementation not shown */
+    }
+
+    /** Returns the graduation year of the club member. */
+    public int gradYear() {
+        /* implementation not shown */
+    }
+
+    /** Returns true if the member is in good stading and false otherwise. */
+    public boolean inGoodStanding() {
+        /* implementation not shown */
+    }
+
+    // There may be instance variables, constructors, and methods that are not shown.
+}
+~~~
+
+The `ClubMembers` class maintains a list of current club members. The declaration of the `ClubMembers` class is shown below.
+
+~~~java
+public class ClubMembers {
+    private ArrayList<MemberInfo> memberList;
+
+    /** Adds new club members to memberList, as described in part (a)
+     * Precondition: names is a non-empty array.
+     * */
+    public void addMembers(String[] names, int gradYear) {
+        /* to be implemented in part (a) */
+    }
+
+    /** Removed members who have graduated and returns a list of members who have graduated
+     * and are in good standing, as described in part (b)
+     * */
+    public ArrayList<MemberInfo> removeMembers(int year) {
+        /* to be implemented in part (b) */
+    }
+
+    // There may be instance variables, constructors, and methods that are not shown.
+}
+~~~
+
+### (a)
+
+Write the `ClubMembers` method `addMembers`, which takes two parameters. The first parameter is a `String` array containing the names of new club members to be added. The second parameter is the graduation year of all the new club members. The method adds the new members to the `memberList` instance variable. The names can be added in any order. All members added are initially in good standing and share the same graduation year, `gradYear`.
+
+Complete the addMembers method.
+
+~~~java
+/** Adds new club members to memberList, as described in part (a)
+ * Precondition: names is a non-empty array.
+ * */
+public void addMembers(String[] names, int gradYear)
+~~~
+
+### (b)
+
+Write the `ClubMembers` method `removeMembers`, which takes the following actions.
+- Returns a list of all students who have graduated and are in good standing. A member has graduated if the member's graduation year is less than or equal to the method's `year` parameter. If no members meet these criteria, an empty list is returned.
+- Removes from `memberList` all members who have graduates, regardless of whether or not they are in good standing.
+
+The following example illustrates the results of a call to `removeMembers`
+
+The `ArrayList memberList` <u>before</u> the method call `removeMembers(2018)`:
+
+| `"SMITH, JANE" 2019 false` | `"FOX, STEVE" 2018 true` | `"XIN, MICHAEL" 2017 false` | `"GARCIA, MARIA" 2020 true` |
+| :----: | :----: | :----: | :----: |
+
+The `ArrayList memberList` <u>after</u> the method call `removeMembers(2018)`:
+
+| `"SMITH, JANE" 2019 false` | `"GARCIA, MARIA" 2020 true` |
+| :----: | :----: |
+
+The `ArrayList memberList` <u>returned by</u> the method call `removeMembers(2018)`:
+
+| `"FOX, STEVE" 2018 true` |
+| :----: |
+
+Complete the `removeMembers` method.
+
+~~~java
+/** Removed members who have graduated and returns a list of members who have graduated
+ * and are in good standing, as described in part (b)
+ * */
+    public ArrayList<MemberInfo> removeMembers(int year)
+~~~

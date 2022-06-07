@@ -3,7 +3,7 @@ public class ProductReview {
     private String review;
 
     /** Constructs a ProductReview object and initializes the instance variables. */
-    public ProdcutReview(String pName, String pReview) {
+    public ProductReview(String pName, String pReview) {
         name = pName;
         review = pReview;
     }

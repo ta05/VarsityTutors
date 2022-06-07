@@ -1,4 +1,4 @@
-## Quesiton 3
+## Question 3
 
 A student plans to analyze product reviews found on a Web site by looking for keywords in posted reviews. The `ProductReview` class, shown below, is used to represent a single review. A product review consists of a product name and a review of that product.
 
@@ -8,7 +8,7 @@ public class ProductReview {
     private String review;
 
     /** Constructs a ProductReview object and initializes the instance variables. */
-    public ProdcutReview(String pName, String pReview) {
+    public ProductReview(String pName, String pReview) {
         name = pName;
         review = pReview;
     }

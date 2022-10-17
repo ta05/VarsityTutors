@@ -6,7 +6,7 @@
 
 Write the method `copyRange` that takes an array fo Strings as a parameter, and the start and end position of the elemenst in the array to copy. If either the start or end positions are not valid positions in the array, return the original array. Otherwise, return an array made up of the elements in the original array from the given start position to the end position.
 
-### Sample Inpus and Outputs
+### Sample Inputs and Outputs
 
 - `copyRange({"1","2","3","4","5"}, 2, 4)` -> `{"3","4","5"}`
 - `copyRange({"1","2","3","4","5"}, 4, 8)` -> `{"1","2","3","4","5"}`

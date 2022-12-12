@@ -4,7 +4,7 @@ PI = math.pi
 
 class Ball:
     
-    def __init__(self, radius, color):
+    def __init__(self, radius: int, color: str):
         self.radius = radius
         self.color = color
     
@@ -17,7 +17,7 @@ class Ball:
     def volume(self):
         return PI * self.radius ** 3
 
-    def paint(self, color):
+    def paint(self, color: str):
         self.color = color
 
 

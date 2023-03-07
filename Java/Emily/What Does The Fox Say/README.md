@@ -1,0 +1,3 @@
+# What Does The Fox Say
+
+Create an `Animal` super class and a class for each animal in the song that extends the `Animal` class. Overwrite the `toString` method in each of your classes to print out what each animal says. In the `MyConsole.java` file in the main method, create an `Animal[]` array that contains instantiations of all your different subclass objects. In the `MyConsole.java` file in the main method, use an enhanced for loop to print out what each animal says. The body of the enhanced for loop should just contain a line of code that looks something like this: `System.out.println(animal)` where `animal` represents each object in the array.

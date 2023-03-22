@@ -2,13 +2,13 @@
 
 The goal of this lab is to calculate the trace of a matrix (a 2-D list). In linear algebra the trace of a matrix is defined to be the sum of elements on the main diagonal:
 
-$$
+$
 tr\left(\begin{bmatrix}
     5 & 3 & 5 \\
     4 & -1 & 2 \\
     -3  & 8  & 7
 \end{bmatrix}\right) = 5 - 1 + 7 = 11
-$$
+$
 
 To be more specific, this is how you calculate it mathematically for **n x n** matrices.
 

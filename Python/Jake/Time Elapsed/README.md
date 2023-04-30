@@ -1,0 +1,3 @@
+# Problem 11.4 - Keeping Track of Time Elapsed in a Race
+
+Write a function called `mult_time` that takes a `Time_Elapsed` object and a number and returns a new `Time_Elapsed` object that contains the product of the original object and the number. Then use `mult_time` to write a function that takes a `Time_Elapsed` object that represents the finishing time in a race, and a number that represents the distance, and returns a `Time_Elapsed` object that represents the pace (time per mile). The function should return a nicely formatted pace in hour, minutes and seconds per mile.

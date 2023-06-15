@@ -22,10 +22,10 @@ Notes:
 - Result of RRSP investment depends on your current and future tax rates. We will use current and future marginal tax rates.
 
 Use the following formulas for calculations:
-- $Mortgage = Amount \times (1 + \frac{mortgage rate}{100})^{time}$
-- $TFSA = Amount \times (1 + \frac {investment rate}{100})^{time}$
-- $RRSP\:Tax\:Return = Amount \times (\frac {current marginal tax rate}{100})$
-- $RRSP = Amount \times (1 + \frac {investment rate}{100})^{time} \times (1 - \frac {future marginal tax rate}{100})$
+- $Mortgage = Amount \times (1 + \frac{\text{mortgage rate}}{100})^{time}$
+- $TFSA = Amount \times (1 + \frac {\text{investment rate}}{100})^{time}$
+- $\text{RRSP Tax Return} = Amount \times (\frac {\text{current marginal tax rate}}{100})$
+- $RRSP = Amount \times (1 + \frac {\text{investment rate}}{100})^{time} \times (1 - \frac {\text{future marginal tax rate}}{100})$
 
 Display the final after-tax value for each investment option. You can display the final values as integers. After displaying the result, prompt the user to enter "y/n" if they wish to test another scenario.
 

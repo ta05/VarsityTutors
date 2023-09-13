@@ -30,7 +30,7 @@ In our program, we need to know which blood types are availbale in the primary a
 Additionally, sometimes some patients require enormous amounts of transfusion, therefore our ER team must know the amount in the blood banks and whether there is a limited amount of blood for the selected blood type. The blood banks record their inventory information with a single letter as follows:
 - **P**: There is plenty of this blood type.
 - **S**: There is a scarce amount of this blood type.
-- **I**: There is insufficient blood left for this blood tupe.
+- **I**: There is insufficient blood left for this blood type.
 
 ## Input
 

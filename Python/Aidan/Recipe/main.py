@@ -1,0 +1,11 @@
+ing1 = input("Enter ingredient 1: ")
+ing1_amount = float(input(f"Ounces of {ing1}: "))
+ing2 = input("Enter ingredient 2: ")
+ing2_amount = float(input(f"Ounces of {ing2}: "))
+ing3 = input("Enter ingredient 3: ")
+ing3_amount = float(input(f"Ounces of {ing3}: "))
+num_servings = int(input("Number of servings: "))
+
+print(f"Total ounces of {ing1}: {ing1_amount * num_servings}")
+print(f"Total ounces of {ing2}: {ing2_amount * num_servings}")
+print(f"Total ounces of {ing3}: {ing3_amount * num_servings}")

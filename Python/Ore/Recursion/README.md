@@ -27,3 +27,5 @@ root.mainloop()
 ~~~
 
 The running result is like below:
+
+<img src="./images/circles.png"/>
